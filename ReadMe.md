@@ -1,4 +1,6 @@
 # Git Komutları
+
+## Commit, Diff, Log, Amend
 ```
 • git status   =>   değişiklik yapılan dosyayı gösteriyor
 
@@ -17,4 +19,17 @@ commiti geri alıyor. yanlışlıkla commit işlemi yaparsak eğer.
 
 • git diff commit_id..baskabircommit_id readme.md  =>  readme deki verilen iki commit arasında 
 yapılan degişiklikleri gösterir.
+```
+
+
+
+## Branch İşlemleri ve Stash Kavramı
+```
+• git branch branchAdi =>  yeni branch oluşturma.
+
+• git checkout branchAdi => oluşturduğumuz branch e geçiş yapıyoruz.
+
+• git checkout -b branchAdi => hem branch oluşturuyor hemde o branche geçiş yapıyor.
+
+• git branch -D branchAdi => branch silme
 ```
