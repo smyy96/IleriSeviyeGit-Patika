@@ -38,3 +38,5 @@ Sonra birden yazdığınız kodlardan önceki versiyon üzerinde değişiklik ya
 Bu durumda bu yazdığınız komutları bir yere saklamanız gerekir. İşte bu tarz senaryolarda 
 git stash bizi çok önemli bir sorundan kurtarıyor.
 ```
+
+[Kaynak Stash](https://aliozgur.gitbooks.io/git101/content/branching_dallanma_ve_merging_birlestirme/degisikliklerinizi_gecici_olarak_kaydetmek_-_git_stash.html)
