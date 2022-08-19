@@ -32,4 +32,9 @@ yapılan degişiklikleri gösterir.
 • git checkout -b branchAdi => hem branch oluşturuyor hemde o branche geçiş yapıyor.
 
 • git branch -D branchAdi => branch silme
+
+• git stash => Bazen Commit işlemi yaptıktan sonra yüzlerce satır komut yazarsınız. 
+Sonra birden yazdığınız kodlardan önceki versiyon üzerinde değişiklik yapmanız gerekebilir. 
+Bu durumda bu yazdığınız komutları bir yere saklamanız gerekir. İşte bu tarz senaryolarda 
+git stash bizi çok önemli bir sorundan kurtarıyor.
 ```
