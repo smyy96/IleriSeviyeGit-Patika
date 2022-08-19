@@ -53,5 +53,9 @@ Bütün commitleri de log yaptığımız zaman getirir.
 işlemi ile birleştirmeyi ifade edebiliriz. birleştirilmekistenenBranch'deki commitlerin hepsi gelmez 
 bu şekilde.
 
-• 
+• git rebase birleştirilmekistenenBranchAdi  =>  birleştirme işlemi yapılır sonra herşey ana branchde 
+olmuş gibi commitleri orada gösterir, bir birleşme işlemi olduguna dair commit oluşturmaz yani birleştirme 
+olduğunu göstermez.
+
+• git merge --abort  => hatalı bir merge yaptığımız zaman, birleşmenin hemen öncesine gider.
 ```
