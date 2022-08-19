@@ -15,7 +15,8 @@ degiştirmek istiyorsan kullanılır.
 • git revert commit_id  =>  git log ile commitimizin idsini alıp revert yaptıgımız zaman o 
 commiti geri alıyor. yanlışlıkla commit işlemi yaparsak eğer.
 
-• git reset -- hard commit_id  =>  yapılan bütün revertleri kaldırır eski haline gelir.
+• git reset -- hard commit_id  =>  yapılan bütün revertleri kaldırır eski haline gelir. 
+Yazdığımız commit_id'sine kadar olan kısım gelir ondan sonraki commitler hepsi silinir.
 
 • git diff commit_id..baskabircommit_id readme.md  =>  readme deki verilen iki commit arasında 
 yapılan degişiklikleri gösterir.
@@ -39,4 +40,18 @@ Bu durumda bu yazdığınız komutları bir yere saklamanız gerekir. İşte bu 
 git stash bizi çok önemli bir sorundan kurtarıyor.
 ```
 
-[Kaynak Stash](https://aliozgur.gitbooks.io/git101/content/branching_dallanma_ve_merging_birlestirme/degisikliklerinizi_gecici_olarak_kaydetmek_-_git_stash.html)
+[Kaynak => Stash](https://aliozgur.gitbooks.io/git101/content/branching_dallanma_ve_merging_birlestirme/degisikliklerinizi_gecici_olarak_kaydetmek_-_git_stash.html)
+
+
+
+## Merge, Rebase, Conflict
+```
+• git merge birleştirilmekistenenBranchAdi => bulunduğumuz branch ile merge ettiğimiz branch birleştiriyor. 
+Bütün commitleri de log yaptığımız zaman getirir.
+
+• git merge --squash birleştirilmekistenenBranchAdi  => birleştirme işlemi yaptıktan sonra tek bir commit 
+işlemi ile birleştirmeyi ifade edebiliriz. birleştirilmekistenenBranch'deki commitlerin hepsi gelmez 
+bu şekilde.
+
+• 
+```
